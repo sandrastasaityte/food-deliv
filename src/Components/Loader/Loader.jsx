@@ -1,11 +1,11 @@
 import React from "react";
-import "./Loader.css";
+import { DotLottieReact } from "@lottiefiles/dotlottie-react";
+import FoodCarousel from "../../assets/Food_Carousel.json"; // adjust if needed
 
 const Loader = () => {
   return (
-    <div className="loader-container">
-      <div className="spinner"></div>
-      <p>Loading...</p>
+    <div style={{ width: "200px", margin: "auto", marginTop: "50px" }}>
+      <DotLottieReact src={FoodCarousel} autoplay loop />
     </div>
   );
 };
