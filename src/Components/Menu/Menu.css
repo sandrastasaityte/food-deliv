@@ -1,0 +1,61 @@
+.menu {
+  padding: 2rem 9%;
+}
+
+.sub-heading {
+  color: #27ae60;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+.heading {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.menu-box {
+  background: #fff;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  text-align: center;
+  flex: 1 1 20rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.menu-box img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.menu-box h3 {
+  margin: 1rem 0 0.5rem;
+}
+
+.menu-box .price {
+  display: block;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.menu-box .btn {
+  padding: 0.8rem 1.5rem;
+  background: #27ae60;
+  color: #fff;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.menu-box .btn:hover {
+  background: #219150;
+}

@@ -1,0 +1,101 @@
+.about {
+  padding: 2rem 9%;
+}
+
+.sub-heading {
+  color: var(--green);
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.heading {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.row .image {
+  flex: 1 1 40rem;
+}
+
+.row .image img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.row .content {
+  flex: 1 1 40rem;
+}
+
+.row .content h3 {
+  font-size: 2.5rem;
+  color: var(--black);
+  margin-bottom: 1rem;
+}
+
+.row .content p {
+  font-size: 1.8rem;
+  color: var(--light-color);
+  margin-bottom: 1rem;
+}
+
+.icons-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.8rem;
+  color: var(--green);
+}
+
+.icons span {
+  font-size: 1.6rem;
+  color: var(--black);
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: var(--black);
+  color: green;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
+.btn:hover {
+  background: var(--green);
+}
+
+/* ===== Responsive ===== */
+@media screen and (max-width: 991px) {
+  .row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .row .image,
+  .row .content {
+    flex: 1 1 100%;
+  }
+
+  .icons-container {
+    justify-content: center;
+  }
+}
